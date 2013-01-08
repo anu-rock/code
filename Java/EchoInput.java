@@ -7,6 +7,6 @@ class EchoInput {
         String firstName = myScanner.nextLine();
         System.out.print("Your Last Name: ");
         String lastName = myScanner.nextLine();
-        System.out.println("Hello, " + firstName + " " + lastName);
+        System.out.println("Buongiorno, " + firstName + " " + lastName);
     }
 }
