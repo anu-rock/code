@@ -1,0 +1,14 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ATM_Case_Study.Login.resources
+obj\Debug\ATM_Case_Study.Properties.Resources.resources
+obj\Debug\ATM Case Study.csproj.GenerateResource.Cache
+bin\Debug\ATM Case Study.exe
+bin\Debug\ATM Case Study.pdb
+obj\Debug\ATM Case Study.exe
+obj\Debug\ATM Case Study.pdb
+obj\Debug\ATM_Case_Study.ChangePin.resources
+obj\Debug\ATM_Case_Study.AccountList.resources
+obj\Debug\ATM_Case_Study.Withdraw.resources
+obj\Debug\ATM_Case_Study.ATMList.resources
+obj\Debug\ATM_Case_Study.Deposit.resources
+obj\Debug\ATM_Case_Study.MainMenu.resources

@@ -1,0 +1,8 @@
+bin\Debug\LoginForm.exe
+bin\Debug\LoginForm.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LoginForm.Form1.resources
+obj\Debug\LoginForm.Properties.Resources.resources
+obj\Debug\LoginForm.csproj.GenerateResource.Cache
+obj\Debug\LoginForm.exe
+obj\Debug\LoginForm.pdb

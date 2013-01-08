@@ -1,0 +1,4 @@
+serveraddress:localhost
+db:p2pdb
+dbuser:anurag
+dbpass:anurag05

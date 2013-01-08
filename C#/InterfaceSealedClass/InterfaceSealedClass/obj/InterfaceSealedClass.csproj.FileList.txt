@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\InterfaceSealedClass.exe
+bin\Debug\InterfaceSealedClass.pdb
+obj\Debug\InterfaceSealedClass.exe
+obj\Debug\InterfaceSealedClass.pdb

@@ -1,0 +1,5 @@
+bin\Debug\FirstDayDotNetProgram.exe
+bin\Debug\FirstDayDotNetProgram.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FirstDayDotNetProgram.exe
+obj\Debug\FirstDayDotNetProgram.pdb

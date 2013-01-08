@@ -1,0 +1,10 @@
+bin\Debug\BankApplicationForm.exe
+bin\Debug\BankApplicationForm.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BankApplicationForm.Form1.resources
+obj\Debug\BankApplicationForm.Properties.Resources.resources
+obj\Debug\BankApplicationForm.csproj.GenerateResource.Cache
+obj\Debug\BankApplicationForm.exe
+obj\Debug\BankApplicationForm.pdb
+obj\Debug\BankApplicationForm.Login.resources
+obj\Debug\BankApplicationForm.Menu.resources

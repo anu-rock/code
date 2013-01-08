@@ -1,0 +1,5 @@
+bin\Debug\MethodTypesWithExceptions.exe
+bin\Debug\MethodTypesWithExceptions.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MethodTypesWithExceptions.exe
+obj\Debug\MethodTypesWithExceptions.pdb
