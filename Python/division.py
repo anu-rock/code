@@ -13,3 +13,6 @@ i = x//y
 print "The answer of division is = " + `z`
 # This truncates the decimal part of the result
 print "The integer part of the result = " + `i`
+
+# Perform a dangerous (unstable) operation
+p = 9/0
