@@ -14,5 +14,9 @@ puts "Have a nice day, #{age} year-old #{first_name}."
 
 # Conditions
 if age > 25
-puts "Btw, you are an old soul."
+	puts "Btw, you are an old soul."
+elsif age > 20
+	puts "Btw, you are pretty young."
+else
+	puts "Btw, what's up kiddo?"
 end
