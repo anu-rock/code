@@ -1,6 +1,7 @@
 ##################################################
 #
 # For loop and arrays
+# Calculates the factorial of a given number
 # Anurag Bhandari <anurag.bhd@gmail.com>
 #
 ##################################################
