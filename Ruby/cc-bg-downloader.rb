@@ -23,7 +23,7 @@ def friendly_filename(filename)
 end
 
 # Read the image JSON data from file
-imagesJsonFile = File.open("images.v7.json")
+imagesJsonFile = File.open("data/images.v7.json")
 imagesJson = imagesJsonFile.read
 
 # Parse the file's read contents into objects
