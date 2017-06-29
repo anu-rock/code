@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
   # GET all articles
   def index
-    @articles = Article.all # instance variables are passed to the view
+    @articles = Article.all.order 'created_at desc' # instance variables are passed to the view
   end
 
   def new
@@ -11,7 +11,7 @@ class ArticlesController < ApplicationController
   def create
     @article = Article.new(article_params)
     @article.save
-    redirect_to @article
+    redirect_to articles_path
   end
 
   # GET an article by id
