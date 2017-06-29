@@ -1,0 +1,33 @@
+<% if @article.errors.any? %>
+<div class="callout alert">
+    <h5><%= pluralize(@article.errors.count, 'error') %> encountered:</h5>
+    <ul>
+        <% @article.errors.full_messages.each do |error_msg| %>
+        <li><%= error_msg %></li>
+        <% end %>
+    </ul>
+</div>
+<% end %>
+
+<!-- As "article" is defined as a resource in routes.db AND as a model,
+    an instance of its corresponding model is already associated
+    with a set of RESTful routes. So, there is no need for explicitly
+    specifying an action url to form_for helper. The url is automatically inferred.
+    When building forms for non-model resources, a symbol/string must be used.
+    Eg., form_for :article, url: articles_path.
+    http://api.rubyonrails.org/v5.1.1/classes/ActionView/Helpers/FormHelper.html#method-i-form_for -->
+<%= form_for @article do |f| %>
+<p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+</p>
+
+<p>
+    <%= f.label :text %><br>
+    <%= f.text_area :text %>
+</p>
+
+<p>
+    <%= f.submit %>
+</p>
+<% end  %>

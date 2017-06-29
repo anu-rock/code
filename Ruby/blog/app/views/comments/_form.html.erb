@@ -1,0 +1,16 @@
+<div class="callout warning">
+    <h5>Add a comment</h5>
+    <%= form_for([@article, @article.comments.build]) do |f| %>
+    <p>
+        <%= f.label :commenter %>
+        <%= f.text_field :commenter %>
+    </p>
+    <p>
+        <%= f.label :body %>
+        <%= f.text_area :body %>
+    </p>
+    <p>
+        <%= f.submit %>
+    </p>
+    <% end %>
+</div>

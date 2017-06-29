@@ -1,16 +1,4 @@
 <div class="row medium-8 large-7 columns">
     <% @articles.each do |article| %>
-    <div class="blog-post">
-        <h3>
-          <%= link_to article.title, article_path(article) %>
-          <small><%= article.created_at.strftime('%v') %></small>
-        </h3>
-        <p><%= article.text %></p>
-        <div class="callout">
-            <ul class="menu simple">
-                <li><a href="#">Author: Anurag</a></li>
-                <li><a href="#">Comments: 0</a></li>
-            </ul>
-        </div>
-    </div>
+      <%= render 'single', :article => article %>
     <% end %>

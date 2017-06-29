@@ -1,0 +1,15 @@
+<div class="blog-post">
+    <h3>
+      <%= link_to article.title, article_path(article) %>
+      <small><%= article.created_at.strftime('%v') %></small>
+    </h3>
+    <p><%= article.text %></p>
+    <div class="callout">
+        <ul class="menu simple">
+            <li><a href="#">Comments: <%= article.comments.count %></a></li>
+            <li><%= link_to 'Edit', edit_article_path(article) %></li>
+            <li><%= link_to 'Delete', article_path(article), method: :delete,
+              data: { confirm: 'Are you sure?' } %></li>
+        </ul>
+    </div>
+</div>
