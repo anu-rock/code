@@ -5,13 +5,19 @@ class ArticlesController < ApplicationController
   end
 
   def new
+      # to avoid null reference exception for
+      # @article.errors.any? on new.html.erb
+      @article = Article.new
   end
 
   # POST request from "new" form will come here
   def create
     @article = Article.new(article_params)
-    @article.save
-    redirect_to articles_path
+    if @article.save
+        redirect_to articles_path
+    else
+        render 'new'
+    end
   end
 
   # GET an article by id
