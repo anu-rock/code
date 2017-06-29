@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="blog-post">
+      <h3>
+        <%= @article.title %>
+        <small><%= @article.created_at.strftime('%v') %></small>
+      </h3>
+      <p><%= @article.text %></p>
+      <div class="callout">
+          <ul class="menu simple">
+              <li><a href="#">Author: Anurag</a></li>
+              <li><a href="#">Comments: 0</a></li>
+          </ul>
+      </div>
+  </div>
+</div>

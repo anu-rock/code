@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anurag Bhandari | Blog</title>
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel='stylesheet' type='text/css'>
+    <%= yield :stylesheets %>
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <ul class="menu">
+                <li class="menu-text">Blog</li>
+                <li><%= link_to 'Home', articles_path %></li>
+                <li><a href="#">About</a></li>
+                <li><%= link_to 'Create post', new_article_path %></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="callout large primary">
+        <div class="row column text-center">
+            <h1>Anurag Bhandari</h1>
+            <h2 class="subheader">A Guy with Monkeys on his Rooftop</h2>
+        </div>
+    </div>
+
+    <%= yield %>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
+    <%= yield :scripts %>
+</body>
+
+</html>
