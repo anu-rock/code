@@ -7,9 +7,11 @@
     <div class="callout">
         <ul class="menu simple">
             <li><a href="#">Comments: <%= article.comments.count %></a></li>
-            <li><%= link_to 'Edit', edit_article_path(article) %></li>
-            <li><%= link_to 'Delete', article_path(article), method: :delete,
-              data: { confirm: 'Are you sure?' } %></li>
+            <li><%= link_to raw('<span class="fi-pencil"> Edit</span>'),
+              edit_article_path(article) %></li>
+            <li><%= link_to raw('<span class="fi-trash"> Delete</span>'),
+              article_path(article), class: 'alert',
+              method: :delete, data: { confirm: 'Are you sure?' } %></li>
         </ul>
     </div>
 </div>
